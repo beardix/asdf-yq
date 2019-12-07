@@ -1,6 +1,6 @@
 # asdf-yq
 
-[![Build Status](https://dev.azure.com/beardix/asdf/_apis/build/status/beardix.asdf-yq?branchName=master)](https://dev.azure.com/beardix/asdf/_build/latest?definitionId=22&branchName=master)
+![](https://github.com/beardix/asdf-yq/workflows/ci/badge.svg)
 
 [yq](https://github.com/mikefarah/yq) plugin for the [asdf](https://github.com/asdf-vm/asdf) version manager.
 

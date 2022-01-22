@@ -22,7 +22,7 @@ install() {
   local -r install_path="$3"
   local -r install_path_bin="${install_path}/bin"
   local -r platform="$(uname | tr '[:upper:]' '[:lower:]')_amd64"
-  local -r download_url="${DOWNLOAD_BASE_URL}/${install_version}/${BINARY_NAME}_${platform}"
+  local -r download_url="${DOWNLOAD_BASE_URL}/v${install_version}/${BINARY_NAME}_${platform}"
   local -r download_path="${TMP_DOWNLOAD_DIR}/${BINARY_NAME}"
 
   [ "$install_type" != "version" ] && error_exit "Error: source installs are not supported"
